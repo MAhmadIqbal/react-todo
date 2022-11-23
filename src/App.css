@@ -1,0 +1,39 @@
+.app {
+  background: #209cee;
+  height: 100vh;
+  padding: 30px;
+  outline-style:dotted;
+  
+}
+
+.header{
+  background:#e8e8e8;
+  margin: auto;
+  width: 50vw;
+  border: 3px solid rgb(74, 49, 87);
+  padding: 10px;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 5px;
+  align-items: center;
+}
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
